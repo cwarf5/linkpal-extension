@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+  </head>
+  <body>
+    <div id="mainContent">
+      <h1>Link Basin</h1>
+      
+      <div class="card">
+        <div class="capture-options">
+          <button id="capturePageButton" class="primary">Capture Page</button>
+          <button id="captureSelectionButton" class="secondary">Capture Selection</button>
+        </div>
+        
+        <div class="separator"></div>
+        
+        <div class="link-info">
+          <label class="label" for="linkInput">Link</label>
+          <input type="text" id="linkInput" placeholder="Link will appear here" readonly />
+          
+          <div class="category-container">
+            <label class="label" for="categorySelect">Category</label>
+            <select id="categorySelect">
+              <option value="" disabled selected>Select Category</option>
+            </select>
+            
+            <div class="add-category">
+              <input type="text" id="newCategoryInput" placeholder="New Category" />
+              <button id="addCategoryButton" class="primary">+</button>
+            </div>
+          </div>
+        </div>
+        
+        <button id="saveButton" class="primary">Save Link</button>
+      </div>
+      
+      <button id="viewLinksButton" class="secondary">View Saved Links</button>
+    </div>
+    
+    <div id="savedLinksContainer" class="hidden">
+      <h2>Saved Links</h2>
+      
+      <div class="card" id="filterContainer" style="padding: 10px;">
+        <label class="label" for="filterCategory">Filter by Category</label>
+        <div class="filter">
+          <select id="filterCategory">
+        <option value="all">All Categories</option>
+          </select>
+        </div>
+      </div>
+      
+      <div id="linksList"></div>
+      
+      <button id="backButton" class="secondary">Back to Save</button>
+    </div>
+    
+    <div id="message" class="hidden"></div>
+    
+    <script src="../utils/helpers.js"></script>
+    <script src="../storage/storage.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
