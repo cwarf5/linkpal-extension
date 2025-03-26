@@ -53,6 +53,9 @@ linkpal-extension
 2. Use the popup interface to save links and categorize them.
 3. Access your saved links anytime through the popup.
 
+## Why not normal browser bookmarks?
+I use different browsers between many different devices and operating systems. This is a one-place-fits-all solution. There will be a ported FireFox extension to allow capatability there. Additionally, all my links will be stored in a GitHub repo, so I can access from any device, anywhere, whenever... *and I just wanted to take a stab at developing a Chrome extension* 
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
