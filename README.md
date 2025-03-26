@@ -2,6 +2,9 @@
 
 LinkPal is a Chrome extension that allows users to save links, categorize them, and access them later. This project aims to provide a simple and efficient way to manage your favorite links directly from your browser.
 
+
+![2GwHLRsM8n](https://github.com/user-attachments/assets/11e50324-317e-4a96-9a70-7f63ecbdf7aa)
+
 ## Features
 
 - Save links from any webpage.
