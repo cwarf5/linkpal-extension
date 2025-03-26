@@ -14,8 +14,10 @@ LinkPal is a Chrome extension that allows users to save links, categorize them, 
 - View and manage saved links through a user-friendly popup interface.
 
 ## Planned Features
-- Sync to and from a GitHub repo
+- **Sync** to and from a GitHub repo
   - Allows you to store the .JSON of your links in a private GitHub repo and sync accross devices, or view directly from GitHub.
+- Add a brief note to each saved link.
+  - So you can remember why you saved it...
 
 ## Project Structure
 
